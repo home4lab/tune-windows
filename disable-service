@@ -1,0 +1,5 @@
+sc config “DiagTrack” start= disabled
+sc stop “DiagTrack”
+
+sc config sysmain start=disabled
+net.exe stop superfetch
